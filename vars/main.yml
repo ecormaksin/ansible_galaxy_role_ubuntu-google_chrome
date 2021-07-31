@@ -1,2 +1,6 @@
 ---
 # vars file for ansible_galaxy_role_ubuntu-google_chrome
+
+google_chrome:
+  apt_file:
+    path: /etc/apt/sources.list.d/google-chrome.list
